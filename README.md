@@ -1,8 +1,10 @@
 PATTERN 1
+
 ***
 ***
 ***
 ***
+
 def func():
     n=int(input("enter the number"))
     for i in range(0,n):
@@ -12,10 +14,12 @@ def func():
 func()
 
 PATTERN 2
+
 *
 **
 ***
 ****
+
 def func():
     n=int(input("enter the number"))
     for i in range(0,n):
@@ -24,13 +28,13 @@ def func():
         print("")
 func()
 
-
-
 PATTERN 3
+
 ****
 ***
 **
 *
+
 def func():
     n=int(input("enter the number"))
     for i in range(n,0,-1):
@@ -40,10 +44,12 @@ def func():
 func()
 
 PATTERN 4
+
 *
 ***
 *****
 *******
+
 def func():
     k=0
     n=int(input("enter the number"))
@@ -55,10 +61,12 @@ def func():
 func()
 
 PATTERN 5
+
 1
 23
 345
 4567
+
 def func():
     k=1
     n=int(input("enter the number"))
@@ -74,6 +82,7 @@ PATTERN 6
 12
 123
 1234
+
 def func():
     n=int(input("enter the number"))
     for i in range(1,n+1):
@@ -82,7 +91,9 @@ def func():
         print()
 func()
 
+
 PATTERN 7
+
 A
 AB
 ABC
@@ -96,6 +107,7 @@ def func():
             k=k+1
         print()
 func()
+
 PATTERN 8
 A
 BC
